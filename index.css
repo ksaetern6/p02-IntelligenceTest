@@ -1,6 +1,10 @@
+/* Author: Ken Saetern */
 body{
   margin-left: 35px;
   margin-top: 35px;
+  background-image: url(http://img02.deviantart.net/c2ad/i/2012/303/7/1/simple_gradient_by_gominhos-d5jh3nv.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 li {
   display:inline-block;
@@ -22,6 +26,7 @@ label{
 #questions{
   width:500px;
 }
+/*hidden text*/
 span.hide{
   margin-left: 5px;
   opacity: 0.0;
@@ -29,5 +34,25 @@ span.hide{
 span.show{
   margin-left: 5px;
   opacity: 1.0;
-  color: grey;
+  color: darkblue;
+}
+/*edit links*/
+a{
+  margin-bottom: 20px;
+  margin-right: 201px;
+  font-size: 30px;
+  color: darkred;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  color: red;
+}
+a:visted{
+  text-decoration: none;
+  color: red;
+}
+/*edits next page for index.html*/
+#page1{
+  margin-left: 400px;
 }
