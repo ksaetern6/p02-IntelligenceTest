@@ -19,7 +19,6 @@ function numbercheck1(){
     document.getElementById("hiddenmsg").innerHTML="Success!";
     document.getElementById("hiddenmsg").classList.remove("hide");
     document.getElementById("hiddenmsg").classList.add("show");
-    document.cookie +=1;
   }//else if answer is right
   else{
     //changes input text box color
@@ -52,8 +51,6 @@ function numbercheck2(){
     document.getElementById("hiddenmsg").classList.remove("hide");
     document.getElementById("hiddenmsg").classList.add("show");
     document.cookie=1;
-    var x = document.cookie;
-    alert(x);
   }//else if answer is right
   else{
     //changes input text box color

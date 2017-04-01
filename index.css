@@ -10,7 +10,7 @@ li {
   display:inline-block;
   text-decoration:none;
 }
-#alert{
+.alert{
   width: 1500px;
 }
 #inputalert{
